@@ -16,7 +16,6 @@ out/
 *.swp
 *.swo
 *~
-.DS_Store
 *.sublime-project
 *.sublime-workspace
 
