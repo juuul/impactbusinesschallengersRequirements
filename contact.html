@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Neem contact met ons op">
+    <title>Contact - Impact Business Challengers</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Impact Business Challengers</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="diensten.html">Diensten</a></li>
+                <li><a href="scans.html">Gratis Scans</a></li>
+                <li><a href="over-ons.html">Over ons</a></li>
+                <li><a href="cases.html">Cases</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Contact</h2>
+            <p>Wij helpen je graag verder</p>
+        </section>
+
+        <section class="content-section">
+            <h2>Kies een van de opties</h2>
+            <div class="cta-buttons">
+                <a href="#contact-form" class="cta-button" data-subject="180° Scan">Gratis 180° Scan aanvragen</a>
+                <a href="#contact-form" class="cta-button" data-subject="360° Organisatiescan">Gratis 360° Organisatiescan aanvragen</a>
+                <a href="#contact-form" class="cta-button" data-subject="Beschikbare consultants">Beschikbare consultants aanvragen</a>
+            </div>
+        </section>
+
+        <section class="content-section" id="contact-form">
+            <h2>Contactformulier</h2>
+            <form id="contactForm" action="#" method="POST">
+                <div class="form-group">
+                    <label for="naam">Naam *</label>
+                    <input type="text" id="naam" name="naam" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="organisatie">Organisatie *</label>
+                    <input type="text" id="organisatie" name="organisatie" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="telefoon">Telefoon</label>
+                    <input type="tel" id="telefoon" name="telefoon">
+                </div>
+
+                <div class="form-group">
+                    <label for="onderwerp">Onderwerp *</label>
+                    <select id="onderwerp" name="onderwerp" required>
+                        <option value="">Selecteer een onderwerp</option>
+                        <option value="180° Scan">Gratis 180° Scan</option>
+                        <option value="360° Organisatiescan">Gratis 360° Organisatiescan</option>
+                        <option value="360° Business Challenge Scan">Gratis 360° Business Challenge Scan</option>
+                        <option value="Beschikbare consultants">Beschikbare consultants</option>
+                        <option value="Consultancy & Implementaties">Consultancy & Implementaties</option>
+                        <option value="Detachering">Detachering</option>
+                        <option value="Business Challenges">Business Challenges</option>
+                        <option value="Algemene vraag">Algemene vraag</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="bericht">Bericht *</label>
+                    <textarea id="bericht" name="bericht" required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="privacy" name="privacy" required>
+                        <label for="privacy">Ik ga akkoord met de verwerking van mijn gegevens volgens de AVG/GDPR *</label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" class="btn">Verstuur</button>
+                </div>
+            </form>
+        </section>
+
+        <section class="content-section">
+            <h2>Of neem direct contact op</h2>
+            <p>Wilt u liever direct contact? Neem dan gerust contact met ons op via e-mail of telefoon.</p>
+            <!-- TODO: Replace with actual contact information before deployment -->
+            <p><strong>E-mail:</strong> info@impactbusinesschallengers.nl<br>
+            <strong>Telefoon:</strong> +31 (0)6 12345678</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Impact Business Challengers. All rights reserved.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
