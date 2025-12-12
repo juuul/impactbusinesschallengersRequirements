@@ -22,6 +22,8 @@ appliesTo:
 font-family: 'Inter', 'Montserrat', 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, sans-serif;
 ```
 
+**Note**: Inter and Montserrat are loaded from Google Fonts. Roboto is included as a system font fallback.
+
 **Font Weights:**
 - Regular: 400
 - Medium: 500

@@ -45,10 +45,16 @@ document.querySelector('.button').addEventListener('click', handleClick);
 const navToggle = document.querySelector('.nav-toggle');
 const navMenu = document.querySelector('.nav-menu');
 
-// Event handling
+// Event handling with arrow function
 navToggle.addEventListener('click', () => {
     navMenu.classList.toggle('active');
 });
+
+// Or with named function
+function handleClick(e) {
+    navMenu.classList.toggle('active');
+}
+navToggle.addEventListener('click', handleClick);
 
 // Form handling
 const form = document.querySelector('#contact-form');

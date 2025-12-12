@@ -34,7 +34,7 @@ To test the website locally, use a simple HTTP server:
 
 ```bash
 # Using Python 3
-python -m http.server 8000
+python3 -m http.server 8000
 
 # Using Node.js
 npx http-server
