@@ -29,9 +29,15 @@ header nav {
     align-items: center;
 }
 
-header h1 {
-    font-size: 1.8rem;
-    font-weight: 600;
+.logo a {
+    display: block;
+    line-height: 0;
+}
+
+.logo img {
+    height: 60px;
+    width: auto;
+    display: block;
 }
 
 nav ul {
@@ -99,8 +105,8 @@ footer p {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    header h1 {
-        font-size: 1.5rem;
+    .logo img {
+        height: 45px;
     }
 
     /* Basic mobile navigation - for production, consider adding a hamburger menu */
