@@ -12,6 +12,7 @@ A website for Impact Business Challengers. This repository contains the source c
 ├── js/
 │   └── main.js        # JavaScript functionality
 ├── assets/            # Images, fonts, and other assets
+├── requirements/      # Website requirements and content documentation
 └── README.md          # Project documentation
 ```
 
@@ -42,9 +43,11 @@ No build tools required - this is a simple HTML/CSS/JavaScript website.
 
 3. Navigate to `http://localhost:8000` in your browser
 
-## Development
+## Requirements
 
-The website is currently under construction. Detailed requirements will be added as the project evolves.
+Detailed website requirements, content, and brand guidelines are available in the `requirements/` folder. See [requirements/README.md](requirements/README.md) for an overview of all requirement documents.
+
+## Development
 
 ### File Organization
 
