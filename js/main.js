@@ -11,6 +11,9 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Handle CTA button clicks on contact page
     handleCTAButtons();
+    
+    // Handle form submission
+    handleFormSubmission();
 });
 
 function initWebsite() {
@@ -59,9 +62,11 @@ function handleCTAButtons() {
     });
 }
 
-// Handle form submission (placeholder - would need backend integration)
-const contactForm = document.getElementById('contactForm');
-if (contactForm) {
+function handleFormSubmission() {
+    // Handle form submission (placeholder - would need backend integration)
+    const contactForm = document.getElementById('contactForm');
+    if (!contactForm) return;
+    
     contactForm.addEventListener('submit', function(e) {
         e.preventDefault();
         
